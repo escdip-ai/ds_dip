@@ -1,0 +1,18 @@
+name: pdsm_foundations
+channels:
+- conda-forge
+pip-repositories:
+- https://pypi.org/simple
+dependencies:
+- python=3.13
+- pandas=2.2.3
+- numpy=2.2.4
+- matplotlib-base=3.10.0
+- seaborn=0.13.2
+- scipy=1.15.2
+- sqlalchemy=2.0.37
+- openpyxl=3.1.5
+- ipykernel=6.29.5
+- pip
+- pip:
+- joblib==1.4.2
